@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<faceosc>
+	<source>
+		<useCamera>0</useCamera>
+	</source>
+	<camera>
+		<device>1</device>
+		<width>640</width>
+		<height>480</height>
+	</camera>
+	<movie>
+		<filename>actriz.mov</filename>
+		<volume>0.0</volume>
+		<speed>1.0</speed>
+	</movie>
+	<face>
+		<iterations>50</iterations>
+		<clamp>3</clamp>
+		<tolerance>.01</tolerance>
+		<attempts>6</attempts>
+	</face>
+    <oscIn>
+        <host>localhost</host>
+        <port>6000</port>
+    </oscIn>
+	<osc>
+		<host>localhost</host>
+		<port>7000</port>
+	</osc>
+    <oscFace>
+        <host>localhost</host>
+        <port>8000</port>
+    </oscFace>
+</faceosc>
+
